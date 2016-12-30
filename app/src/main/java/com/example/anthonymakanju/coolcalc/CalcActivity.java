@@ -133,7 +133,7 @@ public class CalcActivity extends Activity {
         });
 
         divideBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
+            @Override //this is used for taking control of the method and using our own method
             public void onClick(View v){
                 processOperation(Operation.DIVIDE);
             }
