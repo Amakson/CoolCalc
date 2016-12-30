@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anthonymakanju.coolcalc.CalcActivity"
+    android:background="@android:color/background_light">
+
+    -<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    -<LinearLayout android:background="#38c5c6" android:layout_height="165dp" android:layout_width="match_parent" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="50dp" android:paddingRight="10dp" android:paddingLeft="10dp" android:gravity="right" android:layout_gravity="right" android:textSize="45dp" android:id="@+id/resultsText" android:text="567" android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="87dp" android:layout_width="match_parent" android:orientation="horizontal" android:weightSum="4">
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:textSize="30dp" android:id="@+id/sevenBtn" android:text="7" android:textColor="#000000" android:layout_weight="1"/>
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:textSize="30dp" android:id="@+id/eightBtn" android:text="8" android:textColor="#000000" android:layout_weight="1"/>
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:textSize="30dp" android:id="@+id/nineBtn" android:text="9" android:textColor="#000000" android:layout_weight="1"/>
+
+    <ImageButton android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:id="@+id/divideBtn" android:layout_weight="1" android:src="@drawable/divide"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="87dp" android:layout_width="match_parent" android:orientation="horizontal" android:weightSum="4">
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:textSize="30dp" android:id="@+id/fourBtn" android:text="4" android:textColor="#000000" android:layout_weight="1"/>
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:textSize="30dp" android:id="@+id/fiveBtn" android:text="5" android:textColor="#000000" android:layout_weight="1"/>
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:textSize="30dp" android:id="@+id/sixBtn" android:text="6" android:textColor="#000000" android:layout_weight="1"/>
+
+    <ImageButton android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:id="@+id/multiplyBtn" android:layout_weight="1" android:src="@drawable/multiply"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="87dp" android:layout_width="match_parent" android:orientation="horizontal" android:weightSum="4">
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:textSize="30dp" android:id="@+id/oneBtn" android:text="1" android:textColor="#000000" android:layout_weight="1"/>
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:textSize="30dp" android:id="@+id/twoBtn" android:text="2" android:textColor="#000000" android:layout_weight="1"/>
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:textSize="30dp" android:id="@+id/threeBtn" android:text="3" android:textColor="#000000" android:layout_weight="1"/>
+
+    <ImageButton android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="96dp" android:id="@+id/subtractBtn" android:layout_weight="1" android:src="@drawable/subtract"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="87dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+
+    -<RelativeLayout android:layout_height="match_parent" android:layout_width="0dp" android:layout_weight="2">
+
+    <Button android:background="#43c8ca" android:layout_height="wrap_content" android:layout_width="150dp" android:textSize="25dp" android:id="@+id/clearBtn" android:text="CLEAR" android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+    <Button android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="0dp" android:textSize="30dp" android:id="@+id/zeroBtn" android:text="0" android:textColor="#000000" android:layout_weight="1"/>
+
+    <ImageButton android:background="#00ffffff" android:layout_height="fill_parent" android:layout_width="0dp" android:id="@+id/addBtn" android:layout_weight="1" android:src="@drawable/add"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    <ImageButton android:background="#00ffffff" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingTop="110dp" android:paddingRight="15dp" android:id="@+id/calcBtn" android:src="@drawable/equal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
